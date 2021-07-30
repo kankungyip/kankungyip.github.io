@@ -107,8 +107,8 @@ ignore:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@e.coding.net:kankungyip/WHITE/Blog.git
-  branch: coding-pages
+  repo: git@github.com:kankungyip/blog.git
+  branch: gh-pages
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
