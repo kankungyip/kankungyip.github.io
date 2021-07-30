@@ -115,6 +115,30 @@ deploy:
 ## Themes: https://hexo.io/themes/
 theme: minos
 
+# Theme configs
+logo: /images/title.png
+menu:
+  存档: /archives
+  技术: /categories/Technology
+  教育: /categories/Education
+  随记: /categories/Journal
+  自我介绍: /about
+toc: true
+share:
+  type: sharethis
+  install_url: //platform-api.sharethis.com/js/sharethis.js#property=6097f50bdaac690012507b0e&product=sop
+comment:
+  type: gitment
+  owner: kankungyip
+  repo: https://github.com/kankungyip/blog.git
+  client_id: 0cbc0cfcdc5d8469e725
+  client_secret: b9c254f9bcd9d3f8952b872f8d0b8d9ecec4086a
+navbar_links:
+footer_links:
+  GitHub:
+    icon: fab fa-github
+    url: https://github.com/kankungyip
+
 # hexo-enhancer, auto-tags
 tags: macOS, 树莓派, micro:bit, Scratch, 图形编程, JavaScript, Python, MicroPython, MakeCode, DIY, 手工, 游戏, 开源, 源代码, 服务器, React, 小程序, 应用
 
