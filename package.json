@@ -13,6 +13,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.5",
     "hexo": "^5.4.0",
+    "hexo-deployer-git": "^3.0.0",
     "hexo-enhancer": "^1.0.10",
     "hexo-filter-auto-spacing": "^0.2.1",
     "hexo-filter-flowchart": "^1.0.4",
