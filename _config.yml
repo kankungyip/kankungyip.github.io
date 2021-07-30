@@ -128,11 +128,6 @@ share:
   type: sharethis
   install_url: //platform-api.sharethis.com/js/sharethis.js#property=6097f50bdaac690012507b0e&product=sop
 comment:
-  type: gitment
-  owner: kankungyip
-  repo: blog
-  client_id: 0cbc0cfcdc5d8469e725
-  client_secret: b9c254f9bcd9d3f8952b872f8d0b8d9ecec4086a
 navbar_links:
 footer_links:
   GitHub:
