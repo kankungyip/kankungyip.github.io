@@ -116,18 +116,36 @@ deploy:
 theme: minos
 
 # Theme configs
+open_graph:
+  twitter_id:
+  twitter_site:
+  google_plus:
+  fb_admins:
+  fb_app_id:
 logo: /images/title.png
+article:
+  readtime: true
+  highlight: atom-one-light
 menu:
   存档: /archives
   技术: /categories/Technology
   教育: /categories/Education
   随记: /categories/Journal
   自我介绍: /about
+search:
+  type: insight
 toc: true
 share:
   type: sharethis
   install_url: //platform-api.sharethis.com/js/sharethis.js#property=6097f50bdaac690012507b0e&product=sop
 comment:
+plugins:
+  mathjax: true
+  katex: false
+  gallery: true
+  clipboard: true
+  google-analytics:
+    tracking_id:
 navbar_links:
 footer_links:
   GitHub:
