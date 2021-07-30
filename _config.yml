@@ -130,7 +130,7 @@ share:
 comment:
   type: gitment
   owner: kankungyip
-  repo: https://github.com/kankungyip/blog.git
+  repo: blog
   client_id: 0cbc0cfcdc5d8469e725
   client_secret: b9c254f9bcd9d3f8952b872f8d0b8d9ecec4086a
 navbar_links:
