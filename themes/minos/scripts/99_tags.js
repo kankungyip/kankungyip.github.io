@@ -48,11 +48,19 @@ hexo.extend.tag.register('center', function (args, content) {
  * micro:bit
  */
 hexo.extend.tag.register('microbit', function (args) {
-    var code_id = args[0];
-    var base_url = 'https://makecode.microbit.org/';
-    if (args[1] == 'run') {
-      return '<p><div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="' + base_url + '---run?id=' + code_id + '" allowfullscreen sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div></p>';
-    }
-    var height = args[1] || 400;
-    return '<p><div style="position:relative;height:calc(' + height + 'px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="' + base_url + '---codeembed#pub:' + code_id + '" allowfullscreen frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div></p>';
+  var code_id = args[0];
+  var base_url = 'https://makecode.microbit.org/';
+  if (args[1] == 'run') {
+    return '<p><div style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="' + base_url + '---run?id=' + code_id + '" allowfullscreen sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div></p>';
+  }
+  var height = args[1] || 400;
+  return '<p><div style="position:relative;height:calc(' + height + 'px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="' + base_url + '---codeembed#pub:' + code_id + '" allowfullscreen frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div></p>';
+});
+
+/**
+ * youku
+ * <iframe height=498 width=510 src='https://player.youku.com/embed/XMjY5OTEyNDg1Ng==' frameborder=0 'allowfullscreen'></iframe>
+ */
+hexo.extend.tag.register('youku', function (args) {
+  return '<div style="position:relative;padding-top:56.25%;margin-top:1rem;margin-bottom:1rem;height:0;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;margin-top:0;" src="//player.youku.com/embed/' + args[0] + '" frameborder=0 allowfullscreen></iframe></div>';
 });
