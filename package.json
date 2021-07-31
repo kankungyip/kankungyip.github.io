@@ -30,7 +30,6 @@
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-ruby-character": "^1.0.6",
     "hexo-server": "^2.0.0",
-    "hexo-tag-owl": "^1.2.2",
     "hexo-tag-qrcode": "^1.0.0",
     "hexo-util": "^2.4.0",
     "js-yaml": "^4.0.0",

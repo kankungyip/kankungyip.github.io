@@ -183,7 +183,3 @@ sequence:
   options: 
     theme: simple
     css_class:
-
-owl:
-  css: default
-  file: owl.css
