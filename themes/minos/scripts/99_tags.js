@@ -52,6 +52,7 @@ hexo.extend.tag.register('microbit', function (args) {
 /**
  * Videos
  * Youku: <iframe height=498 width=510 src='https://player.youku.com/embed/XMjY5OTEyNDg1Ng==' frameborder=0 'allowfullscreen'></iframe>
+ * Bilibili: <iframe src="//player.bilibili.com/player.html?aid=547035947&bvid=BV1aq4y1p7eg&cid=380420075&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
  */
 function getEmbedVideo(tag, id) {
   var url = '';
@@ -59,10 +60,18 @@ function getEmbedVideo(tag, id) {
     case 'youku':
       url = '//player.youku.com/embed/' + id + '==';
       break;
+    case 'bilibili':
+      url = '//player.bilibili.com/player.html?bvid=' + id;
+      break;
+    default:
+      return '';
   }
   return '<div style="position:relative;padding-top:56.25%;margin-top:1em;margin-bottom:1em;height:0;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;margin-top:0;" src="' + url + '" frameborder=0 allowfullscreen></iframe></div>'
 
 }
 hexo.extend.tag.register('youku', function (args) {
   return getEmbedVideo('youku', args[0]);
+});
+hexo.extend.tag.register('bilibili', function (args) {
+  return getEmbedVideo('bilibili', args[0]);
 });

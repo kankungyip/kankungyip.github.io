@@ -140,19 +140,13 @@ content
 
 ### 视频
 ```
-{% owl youtube youtube_id %}
-{% owl niconico niconico_id [type] %}
-{% owl bilibili bilibili_id [page] [height] [width] %}
-{% owl vimeo vimeo_id %}
-{% owl tudou tudou_id %}
-{% owl youku youku_id [height] [width] %}
-{% owl tencent tencent_id [height] [width] %}
-{% owl ted ted_id [lang] %}
+{% youku youku_id %}
+{% bilibili bilibili_id %}
 ```
 
 ### 拼音
 ```
-{% ruby Base|top %}
+{% ruby 文字|拼音 %}
 ```
 
 ### 二维码
