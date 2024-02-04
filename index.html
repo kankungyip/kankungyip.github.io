@@ -9,7 +9,7 @@
 </head>
 <body>
   <style>
-    img[src*="?logo"] {
+    img.logo {
       width: 50%;
       position: relative;
       left: 50%;
@@ -17,9 +17,6 @@
     }
     img {
       max-height: 400px;
-    }
-    .sidebar-nav ul {
-      padding-bottom: 200px;
     }
     .markdown-section {
       max-width: 960px;
@@ -95,7 +92,17 @@
         crossChapter: true,
         crossChapterText: true,
       },
-    }
+      plugins: [
+        function(hook, vm) {
+          hook.ready(function() {
+            if (vm.route.path === '/') {
+              const url = document.querySelector('.sidebar-nav li li a').href;
+              window.open(url, '_self');
+            }
+          });
+        }
+      ],
+    };
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 
