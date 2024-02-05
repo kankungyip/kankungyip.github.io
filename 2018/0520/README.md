@@ -8,7 +8,7 @@ micro:bit 内置了多个传感器：亮度计、电子罗盘、加速度计、�
 
 ### 自动“台灯”
 
-[micro:bit](https://makecode.microbit.org/#pub:_gURYD7WKXi2X ':include :type=iframe')
+[micro:bit](https://makecode.microbit.org/#pub:_gURYD7WKXi2X ":include :type=iframe")
 
 ## 环境温度
 
@@ -18,7 +18,7 @@ micro:bit 内置了多个传感器：亮度计、电子罗盘、加速度计、�
 
 人体舒适温度一般为 15-18℃，当达到这个温度就显示:smile:，否则显示其他脸。
 
-[micro:bit](https://makecode.microbit.org/#pub:_208HaYU41JC9 ':include :type=iframe')
+[micro:bit](https://makecode.microbit.org/#pub:_208HaYU41JC9 ":include :type=iframe")
 
 ## 方位朝向
 
@@ -26,7 +26,7 @@ micro:bit 内置了多个传感器：亮度计、电子罗盘、加速度计、�
 
 ### 指南针
 
-[micro:bit](https://makecode.microbit.org/#pub:_Ei0VJ5VgfUC0 ':include :type=iframe')
+[micro:bit](https://makecode.microbit.org/#pub:_Ei0VJ5VgfUC0 ":include :type=iframe")
 
 ## 后记
 

@@ -10,13 +10,13 @@
 
 先来一个简单的图案，我们使用 `显示图标` 积木，选择大心和小心的两个图标，交替显示，形成心跳的动画。
 
-[micro:bit](https://makecode.microbit.org/#pub:_AbTbLA0vqKuL ':include :type=iframe')
+[micro:bit](https://makecode.microbit.org/#pub:_AbTbLA0vqKuL ":include :type=iframe")
 
 ### 烟花绽放 :fireworks:
 
 这一次来一个复杂的图案，使用 `显示 LED` 积木，将要显示的图案在 5×5 的点阵中绘制出来，这样就可以点亮对应位置的 LED 灯了。
 
-[micro:bit](https://makecode.microbit.org/#pub:_i4r8pmfHpb0L ':include :type=iframe')
+[micro:bit](https://makecode.microbit.org/#pub:_i4r8pmfHpb0L ":include :type=iframe")
 
 ## 按钮控制
 
@@ -30,7 +30,7 @@
 2. 按下 A 键，显示显示 :smile:
 3. 按下 B 键，显示显示 :frowning_face:
 
-[micro:bit](https://makecode.microbit.org/#pub:_2j44fUivE8g9 ':include :type=iframe')
+[micro:bit](https://makecode.microbit.org/#pub:_2j44fUivE8g9 ":include :type=iframe")
 
 ### 接豆子
 
@@ -42,4 +42,4 @@ MakeCode 里有一个**游戏**的积木块组，这一组积木块可以利用 
 2. 通过 A（左） 和 B（右）控制一个移动的盘子（最底部的一颗 LED 灯）
 3. 当盘子成功与落下的豆子接触，就绽放烟花
 
-[micro:bit](https://makecode.microbit.org/#pub:_aezhPwX1CLux ':include :type=iframe')
+[micro:bit](https://makecode.microbit.org/#pub:_aezhPwX1CLux ":include :type=iframe")

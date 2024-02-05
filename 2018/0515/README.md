@@ -19,7 +19,7 @@ micro:bit 可以通过**无线电**或**蓝牙**进行无线通讯。两者有�
 5. 降落的过程中如果碰到“主角”就自动消失，并且这个“主角”获得 1 积分
 6. “前来的豆子”落到最低边没有碰到“主角”游戏就结束
 
-[micro:bit](https://makecode.microbit.org/#pub:_Pvz3McPUj2uz ':include :type=iframe')
+[micro:bit](https://makecode.microbit.org/#pub:_Pvz3McPUj2uz ":include :type=iframe")
 
 ### 逻辑要点
 
